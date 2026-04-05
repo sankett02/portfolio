@@ -1,6 +1,10 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 
+import cloudvaultImg from '../assets/cloudvault_dfs_viz_1775382725266.png';
+import cropyieldImg from '../assets/crop_yield_ai_viz_1775382702553.png';
+import healthcareImg from '../assets/ehealthcare_system_viz_1775382744643.png';
+
 const projects = [
   {
     title: 'CloudVault DFS',
@@ -9,7 +13,7 @@ const projects = [
     solution: 'Chunk-based distributed storage with node replication.',
     impact: '3 parallel chunk processing for fault tolerance.',
     tags: ['Python', 'Flask', 'Redis', 'Docker'],
-    image: '/src/assets/cloudvault_dfs_viz_1775382725266.png'
+    image: cloudvaultImg
   },
   {
     title: 'Precision Crop Yield AI',
@@ -18,7 +22,7 @@ const projects = [
     solution: 'SHAP-integrated rate of productivity models (t/ha).',
     impact: '98% accuracy in rate-based yield forecasting.',
     tags: ['Scikit-Learn', 'SHAP', 'Pandas', 'PostgreSQL'],
-    image: '/src/assets/crop_yield_ai_viz_1775382702553.png'
+    image: cropyieldImg
   },
   {
     title: 'E-Healthcare Hub',
@@ -27,7 +31,7 @@ const projects = [
     solution: 'Role-based access control with real-time patient monitoring.',
     impact: 'Reduced data latency in doctor-patient interaction.',
     tags: ['React', 'Node.js', 'Auth0', 'MongoDB'],
-    image: '/src/assets/ehealthcare_system_viz_1775382744643.png'
+    image: healthcareImg
   }
 ];
 
