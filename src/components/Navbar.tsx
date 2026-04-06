@@ -27,9 +27,8 @@ const Navbar = () => {
       </div>
 
       <div className="container flex justify-between items-center py-5">
-        <div className="text-2xl font-black tracking-tighter text-white cursor-pointer hover:cyan-text transition-colors">
-          Sanket Ambre
-        </div>
+        {/* Brand name removed as requested */}
+        <div className="flex-1"></div>
         
         {/* Desktop Navigation */}
         <div className="hidden md\:flex items-center gap-12">
